@@ -14,7 +14,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: ['http://localhost:8000', 'http://localhost:3000', 'https://e-commerce-app-snowy-theta.vercel.app/'],
+  origin: ['http://localhost:8000', 'http://localhost:3000'],
   credentials: true,
   optionsSuccessStatus: 200
 };
@@ -58,5 +58,6 @@ if(require.main === module){
         console.log(`API is now online on port ${ process.env.PORT || 3000 || 8000}`)
     });
 }
+
 
 module.exports = { app, mongoose };
