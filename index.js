@@ -14,7 +14,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: ['http://localhost:8000', 'http://localhost:3000'],
+  origin: ['http://localhost:8000', 'http://localhost:3000', 'https://e-commerce-app-snowy-theta.vercel.app/'],
   credentials: true,
   optionsSuccessStatus: 200
 };
