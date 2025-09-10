@@ -1,0 +1,10 @@
+{
+    "url": "https://9zm83j89ad.execute-api.us-west-2.amazonaws.com/production",
+    "routesPrefix": {
+
+        "users": "/users",
+        "products": "/products",
+        "orders": "/orders",
+        "cart": "/cart"
+    }
+}
